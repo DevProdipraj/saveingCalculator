@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: #0000004a;
+}
+.section_wrapper{
+    /* height: 100vh; */
+    align-items: center;
+}
+.header h2{
+    font-size: 60px;
+    margin-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFCF00;
+    font-weight: bold;
+}
+.calculator_left{
+    margin-top: 9rem;
+}
+.calculator_right{
+    margin-top: 2rem;
+    box-shadow: 0px 2px 15px #000000d4;
+    border-radius: 10px;
+}
+.calculator_box{
+    padding: 2rem;
+}
+.income_box h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.income_text{
+    font-size: 22px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.income_inputBox{
+    background: transparent;
+    font-size: 18px;
+    width: 8rem;
+}
+.expense_box h2{
+    font-size: 28px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.cal_btn{
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: #5D8577;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.cloths{
+    margin-left: -15px;
+}
+.cloths_txt{
+    font-size: 22px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.cloths_int{
+    background: transparent;
+    font-size: 18px;
+    width: 8rem;
+}
+.result_box{
+    border: 2px solid #00000040;
+    padding: 1rem;
+}
+.saving_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0rem;
+}
+.result_box h2{
+    font-size: 24px;
+    color: #000;
+}
+.saveing_btn{
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: #5D8577;
+}
+.final_result{
+    border: 2px solid #00000040;
+    padding: 1rem;
+    text-align: center;
+}
+.final_result h2{
+    font-size: 24px;
+    color: #000;
+}
